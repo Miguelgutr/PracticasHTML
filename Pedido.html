@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <a href="./inicio.html"><button>Inicio</button></a>
+    <h1>Elige tu pastel ideal</h1>
+    <img src="./img/Pastele-ría.png" alt="logoPasteleria" width="350px">
+    <hr>
+   <form action="#" id="formPedido" method="post">
+
+    <p>Por favor llena todos los campos requeridos para solicitar el pastel de tu preferencia</p>
+    <br> <br>
+    <label for="name">Nombre: </label>
+    <input type="text" name="nombre" id="nombre"maxlength="30">
+    <label for="tel">Teléfono: </label>
+    <input type="tel" name="tel" id="tel" maxlength="10">
+    <label for="mail">e-mail: </label>
+    <input type="email" name="mail" id="mail">
+    <br><br> <hr>
+    <p>Agrega una descripción general del pastel que quieres:</p>    
+    <textarea name="desc" id="desc" cols="45" rows="3"></textarea>
+    <hr>
+    <p>Elige los sabores de tu pastel (puedes combinar a tu gusto)</p>
+    <table>
+        <tr>
+            <td>
+                <input type="checkbox" name="chocolate" id="chocolate">
+                <label for="chocolate">Chocolate</label>
+            </td>
+            <td>
+                <img src="https://lossaboresdemexico.com/wp-content/uploads/2017/11/20BAKE1-superJumbo.jpg" alt="Chocolate" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="vainilla" id="vainilla">
+                <label for="vainilla">Vainilla</label>
+            </td>
+            <td>
+                <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2019/05/pastel-de-chantilly-de-vainilla-sin-mantequilla.jpg" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="limon" id="limon">
+                <label for="limon">Limón</label>
+            </td>
+            <td>
+                <img src="https://2.bp.blogspot.com/-EB3CIuZSYWg/UFRS8rtPsqI/AAAAAAAABkw/PPgSaScyjpk/s1600/20120915_113542.jpg" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="leche" id="leche">
+                <label for="leche">3 Leches</label>
+            </td>
+            <td>
+                <img src="https://cdn.kiwilimon.com/recetaimagen/3807/3510.jpg" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="coco" id="coco">
+                <label for="coco">Coco</label>
+            </td>
+            <td>
+                <img src="https://d1uz88p17r663j.cloudfront.net/resized/6B996376-811C-6377-B9D8-FF0000673B69-490x252-b-min_1200_600.png" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="zana" id="zana">
+                <label for="zana">Zanahoría</label><br><br>
+            </td>
+            <td>
+                <img src="https://www.recetips.com/uploads/recetas_82f5483eaa135b9b60edfc74f41f1a49.jpg" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+    </table>
+      
+    <hr>
+    <p>Elige los adornos que llevará tu pastel</p>
+    <table>
+        <tr>
+            <td>
+                <input type="checkbox" name="chocolates" id="chocolates">
+                <label for="chocolates">Chocolates</label>
+            </td>
+            <td>
+                <img src="https://www.imer.mx/tropicalisima/wp-content/uploads/sites/19/Chocolats.jpg" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="velas" id="velas">
+                <label for="velas">Velitas de cumpleaños</label>
+            </td>
+            <td>
+                <img src="https://http2.mlstatic.com/24-blister-velas-feliz-cumpleanos-happy-birthday-fiesta-n63-D_NQ_NP_681480-MLM29333698126_022019-F.jpg" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="fruta" id="fruta">
+                <label for="fruta">Fruta</label>
+            </td>
+            <td>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.HZszUKQeWvRjQQNaYGOw5gHaFj&pid=Api" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="flores" id="flores">
+                <label for="flores">Flores</label>
+            </td>
+            <td>
+                <img src="https://i.pinimg.com/736x/7d/6f/ee/7d6fee8729e2aaa1a5aee3b8e91f359f--pastel-decorado-fran.jpg" alt="Vainilla" width="70px">
+            </td>
+        </tr>
+
+    </table>
+        <br><br>
+    <hr><br>
+    <input type="reset" value="Borrar todo">
+    <input type="submit" value="Pedir pastel">
+   </form>
+    <hr>
+   <footer>
+    <p>Encuentranos en Av. del circo #45 PB </p>
+    <p>Teléfono: 3214-6548</p>
+    <p>Horarios de atención: L-D de 7am a 11pm</p>
+</footer>
+
+</body>
+</html>
